@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_1_ex1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startAtividade1Ex1"
+            android:text="@string/_1_1_soma" />
+
+        <Button
+            android:id="@+id/button_1_ex2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startAtividade1Ex2"
+            android:text="@string/_1_2_mensagem" />
+
+        <Button
+            android:id="@+id/button_1_ex3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startAtividade1Ex3"
+            android:text="@string/_1_3_acelerometro" />
+
+        <Button
+            android:id="@+id/button_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startAtividade2"
+            android:text="@string/_2_outros_sensores" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

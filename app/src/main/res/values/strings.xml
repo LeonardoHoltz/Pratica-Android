@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Atividade Prática IHC</string>
+    <string name="_1_1_soma">Atividade 1 Exercício 1: Soma</string>
+    <string name="_1_2_mensagem">Atividade 1 Exercício 2: Mensagem</string>
+    <string name="_1_3_acelerometro">Atividade 1 Exercício 3: Acelerômetro</string>
+    <string name="_2_outros_sensores">Atividade 2: Outros sensores</string>
+    <string name="sum">Somar</string>
+    <string name="insira_um_numero">Insira um número</string>
+    <string name="resultado">Resultado:</string>
+    <string name="enter_a_message">Digite uma mensagem</string>
+    <string name="send">Enviar</string>
+    <string name="textview">TextView</string>
+    <string name="z">Z:</string>
+    <string name="x">X:</string>
+    <string name="y">Y:</string>
+
+</resources>
